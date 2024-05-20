@@ -1,0 +1,278 @@
+/* Green for screens up to 767px */
+@media only screen and (max-width: 767px) {
+  .init-about-banner-wrapper {
+      background-color: green;
+  }
+}
+
+/* Yellow for screens between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .init-about-banner-wrapper {
+      background-color: yellow;
+  }
+}
+
+/* Red for screens between 992px and 1023px */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .init-about-banner-wrapper {
+      background-color: red;
+  }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .init-brand-name{
+    font-size:90px;
+  }
+  .init-about-header {
+    font-size: 60px;
+  }
+  .init-intro-detail::after {
+    width: 400px;
+}
+.init-segment-subtitle {
+  width: 90%;
+}
+.init-brand-title {
+  letter-spacing: 1px;
+}
+.about-title {
+  line-height: 40px;
+}
+.init-introduction-title {
+  font-size: 35px;
+}
+.init-segment-title {
+  font-size: 35px;
+}
+.init-service-segment-wrapper {
+  justify-content: flex-start;
+}
+.init-service-module {
+  width: 33.3%;
+}
+.init-service-module:nth-child(6)::after {
+  display: block;
+}
+.init-service-module:nth-child(5)::before {
+  display: block;
+}
+.init-service-module:nth-child(3n)::before {
+  display: none;
+}
+.init-service-module:nth-child(10) {
+  display: none;
+}
+.init-value-module {
+  width: 50%;
+  margin-top: 0px;
+}
+.init-contact-segment-wrapper {
+  padding: 30px;
+}
+.init-testimonial-visual-wrapper {
+  display: grid;
+  place-items: center;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .init-brand-icon-wrapper img {
+    width: 150px;
+}
+.init-brand-name {
+  font-size: 70px;
+}
+.init-brand-title {
+  width: 60%;
+  letter-spacing: 0px;
+}
+.init-about-header {
+  font-size: 40px;
+}
+.init-circle::before {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.init-circle-wrapper {
+  padding-top: 65px;
+  margin-left: 140px;
+}
+.init-introduction-text {
+  max-width: 100%;
+  text-align: left;
+}
+p.init-intro-detail {
+  width: 100%;
+}
+.init-mission-vission-text {
+  padding: 20px 20px;
+}
+.init-quotes-size {
+  font-size: 70px;
+}
+.init-contact-module {
+  padding: 15px;
+}
+.init-contact-segment-wrapper {
+  padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+  .init-brand-icon-wrapper img {
+    width: 130px;
+}
+.init-menu-items-wrapper {
+  display: none;
+}
+.init-brand-name {
+  font-size: 45px;
+}
+.init-brand-title {
+  width: 90%;
+  letter-spacing: 0px;
+}
+.init-scroll-down-wrapper {
+  padding-bottom: 30px;
+}
+.init-brand-title {
+  margin-bottom: 50px;
+}
+.init-about-header {
+  font-size: 30px;
+}
+.init-introduction-title {
+  font-size: 30px;
+}
+.about-title {
+  line-height: 35px;
+}
+.init-circle::before {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+}
+.init-circle-wrapper {
+  padding-top: 65px;
+  margin-left: 70px;
+}
+.init-intro-detail::after {
+  width: 100%;
+}
+.init-mission-vission-text {
+  padding: 10px;
+}
+.init-mission-mb{
+  margin-bottom: 30px;
+}
+.init-segment-title {
+  font-size: 30px;
+}
+.init-segment-title::before {
+  height: 50px;
+  width: 50px;
+}
+.init-service-module {
+  width: 50%;
+  height: 110px;
+}
+
+.init-service-module:nth-child(2n)::before {
+  display: none;
+}
+.init-service-module::after {
+  display: block;
+}
+.init-service-module:nth-child(10) {
+  display: block;
+}
+.init-service-module {
+  display: flex!important;
+  
+}
+.init-service-module:nth-child(3)::before,
+.init-service-module:nth-child(9)::before,
+.init-service-module:nth-child(7)::after,
+.init-service-module:nth-child(8)::after {
+  display: block;
+}
+.init-service-module .fa-solid {
+  font-size: 25px;
+}
+.init-value-module {
+  width: 100%;
+  margin-top: 0px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 10px;
+  text-align: center;
+}
+.init-monial-module p {
+  text-align: center;
+}
+.init-footer-segment p {
+  text-align: center;
+}
+.footer-social-icons a {
+  font-size: 16px;
+  margin-left: 0px;
+  padding: 6px 20px;
+  width: 50px;
+  border-right: 1px solid #d8d8d8;
+  margin-top: 15px;
+}
+.footer-social-icons {
+  justify-content: center;
+}
+.init-footer-segment .container {
+  padding: 30px;
+}
+.footer-social-icons a:nth-child(4) {
+  border-right: none;
+}
+.init-vision-segment {
+  padding: 60px 0;
+}
+.init-service-segment {
+  padding-top: 60px;
+}
+.init-values-segment {
+  padding-top: 80px;
+}
+.init-testimonial-segment {
+  padding: 60px 0;
+}
+.init-contact-segment {
+  padding: 60px 0;
+}
+.init-about-segment {
+  padding: 60px 0;
+}
+nav {
+  padding-top: 15px;
+}
+}
+/* Blue for screens between 1024px and 1199px */
+/* @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .init-brand-name{
+    font-size: 100px;
+  }
+  .init-about-header {
+    font-size: 60px;
+  }
+} */
+
+/* @media only screen and (max-width: 1280px) {
+  .init-brand-name{
+    font-size: 100px;
+  }
+  .init-about-header {
+    font-size: 60px;
+  }
+} */
+
+/* 1440px is okay */
